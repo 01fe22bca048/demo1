@@ -31,5 +31,8 @@ public class Student {
         
         Student student = new Student(name, dob);
         student.displayInfo();
+
+        Employee e1 = new Employee(dobString, dob);
+        e1.display();
     }
 }
